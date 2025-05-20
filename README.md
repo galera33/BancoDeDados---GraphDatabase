@@ -75,7 +75,7 @@ Conecta um "Historico_Escolar" a uma "Nota", representando a nota obtida no hist
 
  É necessario acessar um site ou compilador que consiga rodar Cypher (Neo4j).
  <br>
- Copie e rode o código contido no arquivo [Criação de Tabelas e Relações](https://github.com/RafLeal/Graph-Database/blob/main/Cria%C3%A7%C3%A3o%20de%20Tabelas%20e%20Rela%C3%A7%C3%B5es). 
+ Copie e rode o código contido no arquivo [Tabelas&Relacoes]. 
  <br>
  Com isso, serão criadas todas os Nodes, as keys e os edges, para a criação das tabelas de relatórios.
 
