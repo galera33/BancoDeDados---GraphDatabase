@@ -1,0 +1,8 @@
+MATCH (p:Professor)-[:MINISTRA]->(d:Disciplina)
+MATCH (he:Historico_Escolar)-[:PERTENCE_A]->(d)
+RETURN 
+  p.nome AS nome_professor,
+  d.nome AS nome_disciplina,
+  he.ano AS ano,
+  he.semestre AS semestre
+ORDER BY p.nome, he.ano, he.semestre
