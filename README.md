@@ -75,37 +75,39 @@ Conecta um "Historico_Escolar" a uma "Nota", representando a nota obtida no hist
 
  É necessario acessar um site ou compilador que consiga rodar Cypher (Neo4j).
  <br>
- Copie e rode o código contido no arquivo [Tabelas&Relacoes]. 
+ Copie e rode o código contido no arquivo [Tabelas&Relacoes](https://github.com/galera33/BancoDeDados---GraphDatabase/blob/main/00%20-%20Tabelas%26Relacoes). 
  <br>
  Com isso, serão criadas todas os Nodes, as keys e os edges, para a criação das tabelas de relatórios.
 
   ### 1. Historico dos Alunos
 
-   Este relatório retorna o historico do aluno de sua escolha, contendo o(s) código(s) e nome(s) da(s) disciplina(s), o semestre, ano e nota final.
+   Relatório que retorna o historico do aluno de sua escolha, contendo o(s) código(s) e nome(s) da(s) disciplina(s), o semestre, ano e nota final.
   <br>
-   Copiar o código contido em [Historico de Aluno](https://github.com/RafLeal/Graph-Database/blob/main/Historico%20de%20Aluno). Substitua a '#' contida no código, pelo número de matricula do aluno ( 1 a 6 ). Depois disto, basta rodar o código. 
+   Copiar o código contido em [Historico Escolar](https://github.com/galera33/BancoDeDados---GraphDatabase/blob/main/01%20-%20Hist%C3%B3rico%20Escolar). Substitua a '#' contida no código, pelo número de matricula do aluno ( 1 a 6 ). Depois disto, basta rodar o código. 
 
   ### 2. Disciplinas mistradas pelas Professores
 
-  Este relatório retorna os professores e as disciplinas as quais eles ministram, trazendo nome do professor e da disciplina, junto do semestre e o ano em que foram mistradas.
+  Relatório que retorna os professores e as disciplinas as quais eles ministram, trazendo nome do professor e da disciplina, junto do semestre e o ano em que foram mistradas.
   <br>
-   Copiar código contido em [Disciplinas Professor](https://github.com/RafLeal/Graph-Database/blob/main/Disciplinas%20Professor) e roda-lo.
+   Copiar código contido em [Professores e Materias Ministradas](https://github.com/galera33/BancoDeDados---GraphDatabase/blob/main/02%20-%20Professores%20e%20Mat%C3%A9rias%20Ministradas) e roda-lo.
 
   ### 3. Alunos Formados
 
-  Este relatório retorna os alunos que se formaram em determinado semestre e ano. O relatório traz o(s) ID(s) e nome(s) do(s) aluno(s).
+  Relatório que retorna os alunos que se formaram, com nota acima de 5, em determinado semestre e ano. O relatório traz o(s) ID(s) e nome(s) do(s) aluno(s).
   <br>
-   Copiar código contido em [Alunos formados](https://github.com/RafLeal/Graph-Database/blob/main/Alunos%20formados). Substitua o '#' pelo ano ( 2022 a 2024 ), e a '!' pelo semestre ( 1 ou 2 ). Após isto, basta rodar o código.
+   Copiar código contido em [Alunos formados](https://github.com/galera33/BancoDeDados---GraphDatabase/blob/main/03%20-%20Alunos%20Formados). Substitua o '#' pelo ano ( 2023 a 2025 ), e a '!' pelo semestre ( 1 ou 2 ). Após isto, basta rodar o código.
+   <br>
+   Caso nada seja gerado, indica que nenhum aluno daquele ano e semestre foi aprovado.
 
   ### 4. Professores Chefes de Departamentos
 
-  Este relatório retorna os professores e os departamentos os quais eles chefiam.
+  Relatório que retorna os professores e os departamentos os quais eles chefiam.
   <br>
-   Copiar código contido em [Professores Chefes de Departamentos](https://github.com/RafLeal/Graph-Database/blob/main/Professores%20Chefes%20de%20Departamentos) e roda-lo.
+   Copiar código contido em [Professores Chefes de Departamento](https://github.com/galera33/BancoDeDados---GraphDatabase/blob/main/04%20-%20Professores%20Chefes%20de%20Departamentos) e roda-lo.
 
   ### 5. Grupos de TCC e seus orientadores
 
-  Este relatório retorna os grupos de TCC criados, fornecendo os nomes dos alunos, o tema do TCC, e o professor orientador.
+  Relatório que retorna os grupos de TCC criados, fornecendo os nomes dos alunos, o tema do TCC, e o professor orientador.
   <br>
-   Copiar código contido em [Grupo TCC](https://github.com/RafLeal/Graph-Database/blob/main/Grupo%20TCC) e roda-lo.
+   Copiar código contido em [TCC](https://github.com/galera33/BancoDeDados---GraphDatabase/blob/main/05%20-%20TCC) e roda-lo.
  
