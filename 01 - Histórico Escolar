@@ -1,0 +1,11 @@
+MATCH (a:Aluno {id_aluno: #})-[:POSSUI_HISTORICO]->(he:Historico_Escolar)
+MATCH (he)-[:PERTENCE_A]->(d:Disciplina)
+MATCH (he)-[:DESEMPENHO]->(n:Nota)
+RETURN 
+  a.nome AS nome_aluno,
+  d.id_disciplina AS codigo_disciplina,
+  d.nome AS nome_disciplina,
+  he.semestre AS semestre,
+  he.ano AS ano,
+  n.nota AS nota_final
+ORDER BY he.ano, he.semestre
