@@ -1,5 +1,5 @@
 # Graph-Database
-Projeto de Orientação - Tópicos Avançãdos de Banco de Dados - 6º Ciclo - Ciencias da Computação
+Projeto de Orientação - Tópicos Avançãdos de Banco de Dados - Ciencias da Computação
 <br>
 
 # Aluno
