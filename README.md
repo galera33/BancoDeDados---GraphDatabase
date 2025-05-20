@@ -72,26 +72,26 @@ Liga um "Grupo_de_TCC" a um "Professor", indicando o professor orientador do gru
 Conecta um "Historico_Escolar" a uma "Nota", representando a nota obtida no histórico.
 
 # Funcionamento do Código
-
+  
  É necessario acessar um site ou compilador que consiga rodar Cypher (Neo4j).
  <br>
  Copie e rode o código contido no arquivo [Tabelas&Relacoes](https://github.com/galera33/BancoDeDados---GraphDatabase/blob/main/00%20-%20Tabelas%26Relacoes). 
  <br>
  Com isso, serão criadas todas os Nodes, as keys e os edges, para a criação das tabelas de relatórios.
 
-  ### 1. Historico dos Alunos
+  ### 01. Historico dos Alunos
 
    Relatório que retorna o historico do aluno de sua escolha, contendo o(s) código(s) e nome(s) da(s) disciplina(s), o semestre, ano e nota final.
   <br>
    Copiar o código contido em [Historico Escolar](https://github.com/galera33/BancoDeDados---GraphDatabase/blob/main/01%20-%20Hist%C3%B3rico%20Escolar). Substitua a '#' contida no código, pelo número de matricula do aluno ( 1 a 6 ). Depois disto, basta rodar o código. 
 
-  ### 2. Disciplinas mistradas pelas Professores
+  ### 02. Disciplinas mistradas pelas Professores
 
   Relatório que retorna os professores e as disciplinas as quais eles ministram, trazendo nome do professor e da disciplina, junto do semestre e o ano em que foram mistradas.
   <br>
    Copiar código contido em [Professores e Materias Ministradas](https://github.com/galera33/BancoDeDados---GraphDatabase/blob/main/02%20-%20Professores%20e%20Mat%C3%A9rias%20Ministradas) e roda-lo.
 
-  ### 3. Alunos Formados
+  ### 03. Alunos Formados
 
   Relatório que retorna os alunos que se formaram, com nota acima de 5, em determinado semestre e ano. O relatório traz o(s) ID(s) e nome(s) do(s) aluno(s).
   <br>
@@ -99,13 +99,13 @@ Conecta um "Historico_Escolar" a uma "Nota", representando a nota obtida no hist
    <br>
    Caso nada seja gerado, indica que nenhum aluno daquele ano e semestre foi aprovado.
 
-  ### 4. Professores Chefes de Departamentos
+  ### 04. Professores Chefes de Departamentos
 
   Relatório que retorna os professores e os departamentos os quais eles chefiam.
   <br>
    Copiar código contido em [Professores Chefes de Departamento](https://github.com/galera33/BancoDeDados---GraphDatabase/blob/main/04%20-%20Professores%20Chefes%20de%20Departamentos) e roda-lo.
 
-  ### 5. Grupos de TCC e seus orientadores
+  ### 05. Grupos de TCC e seus orientadores
 
   Relatório que retorna os grupos de TCC criados, fornecendo os nomes dos alunos, o tema do TCC, e o professor orientador.
   <br>
