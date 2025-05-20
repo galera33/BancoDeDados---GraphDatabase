@@ -1,0 +1,7 @@
+MATCH (tcc:Grupo_de_TCC)-[:INCLUI]->(a:Aluno)
+MATCH (tcc)-[:ORIENTADO_POR]->(p:Professor)
+RETURN 
+  tcc.tema AS tema_tcc,
+  a.nome AS nome_aluno,
+  p.nome AS nome_orientador
+ORDER BY tcc.tema, a.nome
