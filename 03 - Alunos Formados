@@ -1,0 +1,6 @@
+WITH # AS ano_param, ! AS semestre_param
+
+MATCH (a:Aluno)-[:POSSUI_HISTORICO]->(he:Historico_Escolar)-[:DESEMPENHO]->(n:Nota)
+WHERE he.ano = ano_param AND he.semestre = semestre_param AND n.nota >= 5.0
+RETURN a.id_aluno, a.nome, he.ano, he.semestre, n.nota
+ORDER BY a.id_aluno
